@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/voigtjr/soar/SoarSuite/Core/ClientSMLSWIG/Java'
+let g:netrw_dirhist_2='/home/voigtjr/soar/SoarSuite/Core/ClientSMLSWIG'
+let g:netrw_dirhist_3='/home/voigtjr/soar/SoarSuite/Core/ClientSMLSWIG/Python'
+let g:netrw_dirhist_4='/home/voigtjr/libgrrc/samples/c'
+let g:netrw_dirhist_5='/home/voigtjr/soar/SoarSuite/Core/SoarKernel/src'
