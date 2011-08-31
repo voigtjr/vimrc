@@ -11,6 +11,7 @@ set autoindent
 set comments=s1:/**,mb:\ *,ex:\ */,://,b:#,:%,:XCOMM,n:>,fb:-
 set formatoptions=tcroq
 set expandtab
+set hlsearch
 
 function! DoPrettyXML()
   " save the filetype so we can restore it later
