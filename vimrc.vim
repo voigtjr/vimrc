@@ -1,16 +1,34 @@
-syntax enable
-set cursorline
-set nocompatible
-set number
+" This activates pathogen.vim which helps manage plugin bundles in 
+" the bundles/ directory.
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
+" This changes often, still searching for the perfect color scheme.
 colorscheme af
+
+
+" I like the cursorline.
+set cursorline
+
+" I forget what this is for.
+set nocompatible
+
+" Line numbers.
+set number
+
+" Tabs and such
+set expandtab
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
 set smartindent
 set autoindent
+
 set comments=s1:/**,mb:\ *,ex:\ */,://,b:#,:%,:XCOMM,n:>,fb:-
 set formatoptions=tcroq
-set expandtab
+
+" This causes the current search to be highlighted throughout the file.
 set hlsearch
 
 function! DoPrettyXML()
@@ -40,14 +58,15 @@ function! DoPrettyXML()
     " restore the filetype
     exe "set ft=" . l:origft
 endfunction
-
 command! PrettyXML call DoPrettyXML()
 
-"let vimclojureRoot = vimfiles."/bundle/vimclojure-2.2.0"
+" Vim Clojure stuff, most of it not working or working correctly yet.
+" Apparently it is difficult to configure.
 let vimclojure#HighlightBuiltins=1
 let vimclojure#HighlightContrib=1
 let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
+"let vimclojureRoot = vimfiles."/bundle/vimclojure-2.2.0"
 "let vimclojure#WantNailgun = 1
 "let vimclojure#NailgunClient = vimclojureRoot."/lib/nailgun/ng"
 
