@@ -8,7 +8,6 @@ filetype plugin indent on
 " Temporarily broken.
 " colorscheme af
 
-
 " I like the cursorline.
 set cursorline
 
