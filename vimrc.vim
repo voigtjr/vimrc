@@ -5,8 +5,7 @@ syntax on
 filetype plugin indent on
 
 " This changes often, still searching for the perfect color scheme.
-" Temporarily broken.
-" colorscheme af
+colorscheme darkspectrum
 
 " I like the cursorline.
 set cursorline
