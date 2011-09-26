@@ -62,10 +62,10 @@ command! PrettyXML call DoPrettyXML()
 " Vim Clojure stuff, most of it not working or working correctly yet.
 " Apparently it is difficult to configure.
 let vimclojure#HighlightBuiltins=1
-let vimclojure#HighlightContrib=1
-let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
-"let vimclojureRoot = vimfiles."/bundle/vimclojure-2.2.0"
-"let vimclojure#WantNailgun = 1
-"let vimclojure#NailgunClient = vimclojureRoot."/lib/nailgun/ng"
+let vimclojure#DynamicHighlighting=1
+let vimclojure#HighlightContrib=1
+let vimclojureRoot = $HOME . "/.vim/bundle/vimclojure-2.2.0"
+" let vimclojure#WantNailgun = 1
+" let vimclojure#NailgunClient = vimclojureRoot . "/lib/nailgun/ng"
 
