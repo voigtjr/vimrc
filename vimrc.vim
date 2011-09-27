@@ -4,6 +4,9 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
+let mapleader=" "
+let maplocalleader=","
+
 " This changes often, still searching for the perfect color scheme.
 colorscheme darkspectrum
 
