@@ -33,6 +33,9 @@ set formatoptions=tcroq
 " This causes the current search to be highlighted throughout the file.
 set hlsearch
 
+" Omni completion
+set ofu=syntaxcomplete#Complete
+
 function! DoPrettyXML()
     " save the filetype so we can restore it later
     let l:origft = &ft
