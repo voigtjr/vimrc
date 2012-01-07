@@ -19,11 +19,13 @@ set nocompatible
 " Line numbers.
 set number
 
-" Tabs and such
+" Tabs and such.
 set expandtab
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
+
+" These things often piss me off.
 set smartindent
 set autoindent
 
