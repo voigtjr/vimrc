@@ -69,7 +69,7 @@ command! PrettyXML call DoPrettyXML()
 " Let's remember some things, like where the .vim folder is.
 if has("win32") || has("win64")
     let windows=1
-    let vimfiles=$HOME . "/_vim"
+    let vimfiles=$HOME . "/vimfiles"
     let sep=";"
 else
     let windows=0
